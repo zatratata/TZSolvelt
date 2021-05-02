@@ -14,6 +14,14 @@
 		7266A3C4263F330000B509AE /* CustomSearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3C3263F330000B509AE /* CustomSearchBarView.xib */; };
 		7266A3C9263F35B600B509AE /* ClassRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3C7263F35B600B509AE /* ClassRoomViewController.swift */; };
 		7266A3CA263F35B600B509AE /* ClassRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3C8263F35B600B509AE /* ClassRoomViewController.xib */; };
+		7266A3D0263F38BD00B509AE /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3CF263F38BD00B509AE /* ColorAssets.xcassets */; };
+		7266A3D3263F39D300B509AE /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3D2263F39D300B509AE /* ImageAssets.xcassets */; };
+		7266A3D6263F3A4900B509AE /* generated.json in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3D5263F3A4900B509AE /* generated.json */; };
+		7266A3D9263F3A9600B509AE /* StudyingClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3D8263F3A9600B509AE /* StudyingClassModel.swift */; };
+		7266A3DE263F3BD100B509AE /* StudyingClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3DC263F3BD100B509AE /* StudyingClassTableViewCell.swift */; };
+		7266A3DF263F3BD100B509AE /* StudyingClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3DD263F3BD100B509AE /* StudyingClassTableViewCell.xib */; };
+		7266A3E4263F3CF800B509AE /* DateFormatter+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3E3263F3CF800B509AE /* DateFormatter+Ex.swift */; };
+		7266A3E7263F3D1500B509AE /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3E6263F3D1500B509AE /* Date+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		7266A3C3263F330000B509AE /* CustomSearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSearchBarView.xib; sourceTree = "<group>"; };
 		7266A3C7263F35B600B509AE /* ClassRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomViewController.swift; sourceTree = "<group>"; };
 		7266A3C8263F35B600B509AE /* ClassRoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassRoomViewController.xib; sourceTree = "<group>"; };
+		7266A3CF263F38BD00B509AE /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		7266A3D2263F39D300B509AE /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
+		7266A3D5263F3A4900B509AE /* generated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generated.json; sourceTree = "<group>"; };
+		7266A3D8263F3A9600B509AE /* StudyingClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyingClassModel.swift; sourceTree = "<group>"; };
+		7266A3DC263F3BD100B509AE /* StudyingClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyingClassTableViewCell.swift; sourceTree = "<group>"; };
+		7266A3DD263F3BD100B509AE /* StudyingClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudyingClassTableViewCell.xib; sourceTree = "<group>"; };
+		7266A3E3263F3CF800B509AE /* DateFormatter+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ex.swift"; sourceTree = "<group>"; };
+		7266A3E6263F3D1500B509AE /* Date+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +76,9 @@
 			children = (
 				7266A3C6263F357B00B509AE /* ClassRoom */,
 				7266A3BD263F32B800B509AE /* Common */,
+				7266A3CE263F388400B509AE /* Resources */,
+				7266A3E2263F3CB400B509AE /* Extensions */,
 				7266A3A2263F319500B509AE /* AppDelegate.swift */,
-				7266A3AB263F319B00B509AE /* Assets.xcassets */,
 				7266A3AD263F319B00B509AE /* LaunchScreen.storyboard */,
 				7266A3B0263F319B00B509AE /* Info.plist */,
 			);
@@ -88,10 +105,49 @@
 		7266A3C6263F357B00B509AE /* ClassRoom */ = {
 			isa = PBXGroup;
 			children = (
+				7266A3DB263F3B9800B509AE /* Cell */,
+				7266A3CD263F384F00B509AE /* Model */,
 				7266A3C7263F35B600B509AE /* ClassRoomViewController.swift */,
 				7266A3C8263F35B600B509AE /* ClassRoomViewController.xib */,
 			);
 			path = ClassRoom;
+			sourceTree = "<group>";
+		};
+		7266A3CD263F384F00B509AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7266A3D8263F3A9600B509AE /* StudyingClassModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7266A3CE263F388400B509AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7266A3AB263F319B00B509AE /* Assets.xcassets */,
+				7266A3CF263F38BD00B509AE /* ColorAssets.xcassets */,
+				7266A3D2263F39D300B509AE /* ImageAssets.xcassets */,
+				7266A3D5263F3A4900B509AE /* generated.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7266A3DB263F3B9800B509AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7266A3DC263F3BD100B509AE /* StudyingClassTableViewCell.swift */,
+				7266A3DD263F3BD100B509AE /* StudyingClassTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7266A3E2263F3CB400B509AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7266A3E3263F3CF800B509AE /* DateFormatter+Ex.swift */,
+				7266A3E6263F3D1500B509AE /* Date+Ex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +207,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7266A3D0263F38BD00B509AE /* ColorAssets.xcassets in Resources */,
 				7266A3C4263F330000B509AE /* CustomSearchBarView.xib in Resources */,
+				7266A3D6263F3A4900B509AE /* generated.json in Resources */,
+				7266A3D3263F39D300B509AE /* ImageAssets.xcassets in Resources */,
 				7266A3AF263F319B00B509AE /* LaunchScreen.storyboard in Resources */,
 				7266A3CA263F35B600B509AE /* ClassRoomViewController.xib in Resources */,
 				7266A3AC263F319B00B509AE /* Assets.xcassets in Resources */,
+				7266A3DF263F3BD100B509AE /* StudyingClassTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7266A3DE263F3BD100B509AE /* StudyingClassTableViewCell.swift in Sources */,
+				7266A3E4263F3CF800B509AE /* DateFormatter+Ex.swift in Sources */,
 				7266A3A3263F319500B509AE /* AppDelegate.swift in Sources */,
+				7266A3D9263F3A9600B509AE /* StudyingClassModel.swift in Sources */,
+				7266A3E7263F3D1500B509AE /* Date+Ex.swift in Sources */,
 				7266A3C9263F35B600B509AE /* ClassRoomViewController.swift in Sources */,
 				7266A3C0263F32E500B509AE /* CustomSearchBarView.swift in Sources */,
 			);
