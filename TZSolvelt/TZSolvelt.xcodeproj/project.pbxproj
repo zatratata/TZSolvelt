@@ -22,6 +22,8 @@
 		7266A3DF263F3BD100B509AE /* StudyingClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7266A3DD263F3BD100B509AE /* StudyingClassTableViewCell.xib */; };
 		7266A3E4263F3CF800B509AE /* DateFormatter+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3E3263F3CF800B509AE /* DateFormatter+Ex.swift */; };
 		7266A3E7263F3D1500B509AE /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3E6263F3D1500B509AE /* Date+Ex.swift */; };
+		7266A3EA263F497800B509AE /* StudyingClassCacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3E9263F497800B509AE /* StudyingClassCacheModel.swift */; };
+		7266A3ED263F49AB00B509AE /* DataManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3EC263F49AB00B509AE /* DataManeger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		7266A3DD263F3BD100B509AE /* StudyingClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudyingClassTableViewCell.xib; sourceTree = "<group>"; };
 		7266A3E3263F3CF800B509AE /* DateFormatter+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ex.swift"; sourceTree = "<group>"; };
 		7266A3E6263F3D1500B509AE /* Date+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
+		7266A3E9263F497800B509AE /* StudyingClassCacheModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyingClassCacheModel.swift; sourceTree = "<group>"; };
+		7266A3EC263F49AB00B509AE /* DataManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManeger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				7266A3BE263F32C200B509AE /* CustomSearchBar */,
+				7266A3EC263F49AB00B509AE /* DataManeger.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				7266A3D8263F3A9600B509AE /* StudyingClassModel.swift */,
+				7266A3E9263F497800B509AE /* StudyingClassCacheModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 			files = (
 				7266A3DE263F3BD100B509AE /* StudyingClassTableViewCell.swift in Sources */,
 				7266A3E4263F3CF800B509AE /* DateFormatter+Ex.swift in Sources */,
+				7266A3ED263F49AB00B509AE /* DataManeger.swift in Sources */,
+				7266A3EA263F497800B509AE /* StudyingClassCacheModel.swift in Sources */,
 				7266A3A3263F319500B509AE /* AppDelegate.swift in Sources */,
 				7266A3D9263F3A9600B509AE /* StudyingClassModel.swift in Sources */,
 				7266A3E7263F3D1500B509AE /* Date+Ex.swift in Sources */,
