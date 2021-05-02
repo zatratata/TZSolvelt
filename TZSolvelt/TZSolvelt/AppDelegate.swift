@@ -15,11 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let rootViewController = ClassRoomViewController()
+        let rootViewController = configureMainScreen()
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
         
         return true
+    }
+    
+    private func configureMainScreen() -> ClassRoomViewController {
+        let interactor = ClassRoomInteractor()
+        let presenter = ClassRoomViewPresenter(interactor: interactor)
+        let viewController = ClassRoomViewController(presenter: presenter)
+        presenter.view = viewController
+        interactor.output = presenter
+        return viewController
     }
 }
 
