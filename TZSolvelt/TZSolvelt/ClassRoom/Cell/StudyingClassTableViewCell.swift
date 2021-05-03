@@ -63,7 +63,7 @@ final class StudyingClassTableViewCell: UITableViewCell {
         case .notStarted:
             classStateView.backgroundColor = notStartedStateViewColor
         }
-        classStateLabel.text = state.title
+        classStateLabel.text = NSLocalizedString(state.rawValue, comment: "")
     }
     
     private func setupLastUpdateLabel(with date: Date?) {

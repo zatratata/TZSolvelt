@@ -19,17 +19,6 @@ final class StudyingClassModel: Decodable {
         case inProgress = "inProgress"
         case completed = "completed"
         case notStarted = "notStarted"
-        
-        var title: String {
-            switch self {
-            case .inProgress:
-                return "In Progress"
-            case .completed:
-                return "Completed"
-            case .notStarted:
-                return "Start"
-            }
-        }
     }
     
     //MARK: - Computed properties

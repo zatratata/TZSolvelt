@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TZSolvelt
+
+  Created by Default User on 5/3/21.
+  
+*/
+
+"inProgress" = "In Progress";
+"completed" ="Completed";
+"notStarted" = "Start";

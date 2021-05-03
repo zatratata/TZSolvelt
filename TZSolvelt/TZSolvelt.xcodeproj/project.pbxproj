@@ -26,6 +26,7 @@
 		7266A3ED263F49AB00B509AE /* DataManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3EC263F49AB00B509AE /* DataManeger.swift */; };
 		7266A3F0263F5C4700B509AE /* ClassRoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3EF263F5C4700B509AE /* ClassRoomPresenter.swift */; };
 		7266A3F3263F5C8E00B509AE /* ClassRoomInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266A3F2263F5C8E00B509AE /* ClassRoomInteractor.swift */; };
+		72BA714C263FDF290089454A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BA714B263FDF290089454A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		7266A3EC263F49AB00B509AE /* DataManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManeger.swift; sourceTree = "<group>"; };
 		7266A3EF263F5C4700B509AE /* ClassRoomPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomPresenter.swift; sourceTree = "<group>"; };
 		7266A3F2263F5C8E00B509AE /* ClassRoomInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomInteractor.swift; sourceTree = "<group>"; };
+		72BA714B263FDF290089454A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				7266A3CF263F38BD00B509AE /* ColorAssets.xcassets */,
 				7266A3D2263F39D300B509AE /* ImageAssets.xcassets */,
 				7266A3D5263F3A4900B509AE /* generated.json */,
+				72BA714B263FDF290089454A /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				7266A3C4263F330000B509AE /* CustomSearchBarView.xib in Resources */,
 				7266A3D6263F3A4900B509AE /* generated.json in Resources */,
 				7266A3D3263F39D300B509AE /* ImageAssets.xcassets in Resources */,
+				72BA714C263FDF290089454A /* Localizable.strings in Resources */,
 				7266A3AF263F319B00B509AE /* LaunchScreen.storyboard in Resources */,
 				7266A3CA263F35B600B509AE /* ClassRoomViewController.xib in Resources */,
 				7266A3AC263F319B00B509AE /* Assets.xcassets in Resources */,
